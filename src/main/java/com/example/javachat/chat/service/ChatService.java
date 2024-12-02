@@ -1,4 +1,5 @@
-package com.example.javachat.chat.service;
+/*
+compackage com.example.javachat.chat.service;
 
 import com.example.javachat.chat.dto.RoomDTO;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -51,3 +52,4 @@ public class ChatService {
         }
     }
 }
+*/

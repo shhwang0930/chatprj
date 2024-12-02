@@ -1,3 +1,4 @@
+/*
 package com.example.javachat.chat.handler;
 
 
@@ -29,4 +30,4 @@ public class WebSocketHandler extends TextWebSocketHandler {
         RoomDTO room = chatService.findRoomById(chatMessage.getRoomId());
         room.handleActions(session, chatMessage, chatService);
     }
-}
+}*/

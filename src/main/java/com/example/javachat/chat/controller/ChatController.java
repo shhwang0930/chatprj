@@ -1,15 +1,10 @@
 package com.example.javachat.chat.controller;
 
 import com.example.javachat.chat.dto.MessageDTO;
-import com.example.javachat.chat.dto.RoomDTO;
-import com.example.javachat.chat.service.ChatService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.messaging.handler.annotation.MessageMapping;
 import org.springframework.messaging.simp.SimpMessageSendingOperations;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.*;
-
-import java.util.List;
 
 @RequiredArgsConstructor
 @Controller
